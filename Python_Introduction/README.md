@@ -89,3 +89,34 @@ Different programming languages are good for differnet cases.
 * Embedded Library
 * External Library
 
+### Interpreting & Compiling Code
+Compilation is the process of translating the whole program into some another language. \
+Interpretation is process of translation and execution of program statement by statement using Virtual Machine. \
+Each platform can have its own interpreter.
+
+### How Python code is executed
+1. Python code is translated into bytecode
+2. Bytecode is transferred to PVM (Python Virtual Machine) for interpreting
+
+### Bytecode Vs Machine Code
+Machine code is set of instructions which can be directly executed by processor. \
+Bytecode is set of instructions which can be executed by some virtual machine. \
+Python bytecode is a special optimized format for storing Python code. Bytecode is platform independent, bytecode works 
+faster than original Python code.\
+Interpreter interprets bytecode (translate to machine code and executes it)
+
+### Python Virtual Machine (PVM)
+PVM executes Python bytecode interpreting it, CPython is a standard implementation of PVM.
+
+### JIT
+JIT (Just In Time Compilation) \
+Sometimes it's better to convert code to machine code and execute it without conversion each time. \
+JIT compiler allows to perform such execution. There are some implementations of JIT for Python like Numba.
+
+### What is program?
+* Data
+* Operations
+
+### What is Python program?
+Program in Python is a set of operations on some objects and data is represented by Python objects. \
+Operations in Python are represented by operators and functions.
