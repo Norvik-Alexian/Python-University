@@ -1,7 +1,8 @@
 ## Language Introduction
 Python is dynamic interpreted (bytecode compiled) language, put it simply Python is compiled-interpreted Programming
 language. Python support OOP, structured programming and other approaches.
-Python trackes the types of all values at runtime and flags code that does not make sense as it runs.
+Python trackes the types of all values at runtime and flags code that does not make sense as it runs. \
+Python is highly object-oriented programming language.
 
 **_Identifier_** in Python is pseudonym for variable, function class, module or some other objects
 
@@ -66,7 +67,7 @@ Different programming languages are good for differnet cases.
 2. Code quality
 3. Universality
 4. Cross-Platform (interpreter for different OS)
-5. Reach set of libraries
+5. Rich set of libraries
 6. Powerful Community
 
 ### Python Weaknesses
