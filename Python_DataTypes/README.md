@@ -33,3 +33,13 @@ Every value in Python is object.
 ### Object Identity, Data Type, Value
 Each object has its identity, value and type, each object representation is called value, identity is created on object 
 creation and is identifying object among others, each object has its data type.
+
+### Primitive Vs Non-Primitive Data Types
+Primitive data types are mostly created as data type simplification. \
+Primitive data types are mostly atomic types, that cannot be composed of other data types or has no connections to other 
+data types and have fixed size of memory for values.
+
+Number types are primitive in most programming languages, but not in Python.
+
+Non-Primitive data type are also called Reference Data Types as we work with their values by reference not by values.
+Python works with Non-primitive data types.
