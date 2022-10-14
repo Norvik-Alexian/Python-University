@@ -32,3 +32,23 @@ we can use mixed types of numbers for comparison.
 * and
 * or 
 * not
+
+### Complex Comparison
+Python allows to compound comparison operators, it allows to check the range.
+
+Example: a < b < c is equivalent to a < b and b < c
+
+### Often used False Values (Falsy)
+* None
+* False
+* Zero of any numeric types
+* Empty sequences and collections
+
+### Unfixed Size Whole Numbers
+Python allows to declare as big as whole numbers as memory allows.
+
+### Bitwise Operators 
+* <<, >>, &, |, ^
+* x << 2
+
+Better to avoid such operations in Python.
