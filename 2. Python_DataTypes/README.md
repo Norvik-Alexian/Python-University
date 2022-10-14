@@ -43,3 +43,12 @@ Number types are primitive in most programming languages, but not in Python.
 
 Non-Primitive data type are also called Reference Data Types as we work with their values by reference not by values.
 Python works with Non-primitive data types.
+
+### Mutable & Immutable Data types
+Mutables are objects which value can change, Immutable objects value can't change, new object is created instead. \
+Immutability brings safety and optimization possiblity \
+Mutability brings usage freedom. \
+Immutable objects are safe for usage by multiple variables as there will be only reading operation for them.
+
+### Container Data types
+Object that can contain reference to other objects are called container objects, array type objects are container objects.
