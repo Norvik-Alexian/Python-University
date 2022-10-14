@@ -58,3 +58,14 @@ Bool type has 2 values: **True** and **False** \
 True and False are just 1 and 0 with some additional features. Other values can be converting to boolean using truth testing
 procedure with `bool()` function. \
 Bool is subclass of int.
+
+### Numbers of different notations
+Python store number by default in decimal notation, but also allows to store numbers in hexadecimal, octal or binary
+notations.
+
+* 0b101 - binary
+* 0o21 - octal
+* 0xF6 - hexadecimal
+
+### None
+Nothing, none is object, it's a keyword referring to `null` concept.
