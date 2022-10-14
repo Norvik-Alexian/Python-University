@@ -52,3 +52,9 @@ Immutable objects are safe for usage by multiple variables as there will be only
 
 ### Container Data types
 Object that can contain reference to other objects are called container objects, array type objects are container objects.
+
+### Booleans
+Bool type has 2 values: **True** and **False** \
+True and False are just 1 and 0 with some additional features. Other values can be converting to boolean using truth testing
+procedure with `bool()` function. \
+Bool is subclass of int.
