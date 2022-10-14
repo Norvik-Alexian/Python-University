@@ -22,3 +22,13 @@ other case.
 Python expressions can include numbers of different types than the values are converted to the most complex type from them.
 
 complexity rule: int < float < complex
+
+### Boolean expressions
+Logical expressoins using comparison operators. \
+comparison operator: >, <, ==, != \
+we can use mixed types of numbers for comparison.
+
+### Boolean Specific Operators
+* and
+* or 
+* not
