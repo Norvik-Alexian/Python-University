@@ -57,3 +57,14 @@ Better to avoid such operations in Python.
 Each operator can perform different operation in case of different type values, we can override operator for our custom type to define how it will perform.
 
 Overriding is based on Polymorphism.(one form different implementations)
+
+### Operations on Arrays: Basic Operations
+* Getting length: len(arr)
+* Getting element at some position: arr[index]
+* Getting element with negative index: arr[-index]
+
+### Operations on Array: Slicing
+* Getting subarray: arr[startIndex:endIndex]
+* Getting subarray with default boundaries
+* arr[Start:End:Step]
+We can define the step with which elements will be extracted to subarray from original array.
