@@ -84,3 +84,6 @@ Array is ordered sequence of elements, Python array main representations are Str
 Array components:
 * Index (starts from 0)
 * Elements
+
+### Lists
+List is ordered flexible (mutable) array of objects that can have different types, and can be modified.
