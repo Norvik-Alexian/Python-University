@@ -72,3 +72,6 @@ Nothing, none is object, it's a keyword referring to `null` concept.
 
 ### Decimals
 Decimals allows to define floating-point numbers with fixed number of digits after dot. Simple float has problems with results because of hardware limitations, in this case decimals also can be useful.
+
+### Fractions
+Fractions allows to define rational numbers (numerator and denominator), we can perform mathematical expressions for such values using =,-, etc.
