@@ -24,7 +24,7 @@ Python expressions can include numbers of different types than the values are co
 complexity rule: int < float < complex
 
 ### Boolean expressions
-Logical expressoins using comparison operators. \
+Logical expressions using comparison operators. \
 comparison operator: >, <, ==, != \
 we can use mixed types of numbers for comparison.
 
@@ -52,3 +52,8 @@ Python allows to declare as big as whole numbers as memory allows.
 * x << 2
 
 Better to avoid such operations in Python.
+
+### Operators Overriding
+Each operator can perform different operation in case of different type values, we can override operator for our custom type to define how it will perform.
+
+Overriding is based on Polymorphism.(one form different implementations)
