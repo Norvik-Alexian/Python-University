@@ -46,7 +46,7 @@ Python works with Non-primitive data types.
 
 ### Mutable & Immutable Data types
 Mutables are objects which value can change, Immutable objects value can't change, new object is created instead. \
-Immutability brings safety and optimization possiblity \
+Immutability brings safety and optimization possibility \
 Mutability brings usage freedom. \
 Immutable objects are safe for usage by multiple variables as there will be only reading operation for them.
 
@@ -69,3 +69,6 @@ notations.
 
 ### None
 Nothing, none is object, it's a keyword referring to `null` concept.
+
+### Decimals
+Decimals allows to define floating-point numbers with fixed number of digits after dot. Simple float has problems with results because of hardware limitations, in this case decimals also can be useful.
