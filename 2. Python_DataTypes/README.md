@@ -75,3 +75,12 @@ Decimals allows to define floating-point numbers with fixed number of digits aft
 
 ### Fractions
 Fractions allows to define rational numbers (numerator and denominator), we can perform mathematical expressions for such values using =,-, etc.
+
+### None vs NaN vs Undefined
+If variable doesn't exist, it's undefined. When variable is created it can have value, Nan or None. Working with undefined variable generates error.
+
+### Array
+Array is ordered sequence of elements, Python array main representations are Strings, Lists, Tuples. \
+Array components:
+* Index (starts from 0)
+* Elements
