@@ -68,3 +68,11 @@ Overriding is based on Polymorphism.(one form different implementations)
 * Getting subarray with default boundaries
 * arr[Start:End:Step]
 We can define the step with which elements will be extracted to subarray from original array.
+
+### List specific operations
+* append() method can add element into end of the list.
+* insert() method allows insert element to selected position.
+* pop() method removes some element from list by index
+* remove() method removes first occurrence of specified value.
+* sort() method sorts list by ascending principle
+* reverse() method sorts list by descending principle. 
