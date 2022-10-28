@@ -86,4 +86,9 @@ Array components:
 * Elements
 
 ### Lists
-List is ordered flexible (mutable) array of objects that can have different types, and can be modified.
+List is ordered flexible (mutable) array of objects that can have different types, and can be modified. \
+We can concatenate (merge) lists which creates new list and we can concatenate with other lists. \
+Lists can be nested inside each other and also we can add nested list. Using nested list we can build matrices, for bigger matrix operations is better to use external modules like Numpy. \
+As I mentioned before lists are mutable, so they can be modified and when we modify a list, the list itself is changed. \
+`list()` function allows to create a list from iterable object. \
+If we try to access element by index that is not filled we will get `Out of range` error.
