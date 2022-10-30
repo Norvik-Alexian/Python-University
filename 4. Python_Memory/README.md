@@ -23,3 +23,17 @@ The object references count decreases when it's deleted with del, its reference 
 
 Local identifiers are automatically deleted. \
 Global identifiers should be freed manually (decrease global identifiers usage)
+
+## Memory Optimization: Python Interning
+Interning is re-using the objects on-demand instead of creating new objects. \
+The CPython implementation of Python pre-allocates shared values, certain ranges of commonly-used immutable types. \
+When Python is instructed to instantiate a new immutable object, it first checks to see if an identical object already exists as a shared object.
+
+### Strings Interning Runtime/Compile Time
+A string will not be interned unless it is loaded at compile time as a constant string. This includes strings defined as expressions, remember that an expression is evaluated first before an object is instantiated.
+
+Any string constructed at runtime will not be interned.
+
+## Mutable/Immutable Object Ids
+* The value of an immutable object is tied to its identity, if the value changes, the object changes.
+* The value of a mutable object is not tied to its identity, identity is retained across changes made to the object.
