@@ -75,4 +75,8 @@ We can define the step with which elements will be extracted to subarray from or
 * pop() method removes some element from list by index
 * remove() method removes first occurrence of specified value.
 * sort() method sorts list by ascending principle
-* reverse() method sorts list by descending principle. 
+* reverse() method sorts list by descending principle.
+
+### == vs is
+* == checks if objects have the same content and compares strings character by character
+* is check if objects have same identity or compares the identity
