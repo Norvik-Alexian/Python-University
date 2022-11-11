@@ -1,6 +1,7 @@
 ## For Loop
 
-for allows to iterate over elements of array, on each iteration target gets the value of next object element.
+for allows to iterate over elements of array, on each iteration target gets the value of next object element. \
+Using **for** we can iterate over string characters, on each iteration next character in string is placed inside char identifier
 
 ## List Comprehension Expression
 Comprehension expression consists of brackets containing an expression followed by a for clause, then zero or more for
@@ -27,3 +28,7 @@ for our code.
 * number - which is the number of executions you'd like to run the stmt
 
 Where the timeit.timeit() function returns the number of seconds it took to execute the code.
+
+## If/elif/else
+To check conditions in Python we can use if/elif/else, only if is mandatory elif and else are optional. \
+To check multiple conditions we can use **and** and **or** keywords.
