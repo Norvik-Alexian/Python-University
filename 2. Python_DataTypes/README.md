@@ -92,3 +92,10 @@ Lists can be nested inside each other and also we can add nested list. Using nes
 As I mentioned before lists are mutable, so they can be modified and when we modify a list, the list itself is changed. \
 `list()` function allows to create a list from iterable object. \
 If we try to access element by index that is not filled we will get `Out of range` error.
+
+### Strings
+String is ordered sequence of characters (characters array), String type pseduonym is `str` and by default strings in
+Python 3 are encoded using **Unicode**
+
+String values can be placed either in single quotes or in double quotes. Single quotes strings can contain double quotes
+and vice versa.
