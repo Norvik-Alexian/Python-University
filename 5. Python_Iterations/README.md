@@ -11,3 +11,19 @@ The result will be a new list resulting from evaluating the expression in the co
 follow it.
 
 To generate new lists based on existing ones we can use comprehension expressions.
+
+## Timeit
+This module provides a simple way to find the execution time of small bits of Python code. \
+Mesuring time before and after running method is not precise as there might be a background process momentarily running
+which disrupts the code execution and you will get significant variations in the running time of small code snippets. \
+timeit runs your snippet of code millions of times so that you get the statistically most relevant measurement of code 
+execution time.
+
+The module function timeit.timeit(stmt, setup, timer, number) accepts four arguments:
+* stmt - which is the statement you want to measure, it defaults to 'pass'
+* setup - which is the code that you run before running the stmt, we generally use this to import the required modules
+for our code.
+* timer - which is timeit.Timer object, it usually has a sensible default value, so you don't have to worry about it.
+* number - which is the number of executions you'd like to run the stmt
+
+Where the timeit.timeit() function returns the number of seconds it took to execute the code.
