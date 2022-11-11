@@ -99,3 +99,20 @@ Python 3 are encoded using **Unicode**
 
 String values can be placed either in single quotes or in double quotes. Single quotes strings can contain double quotes
 and vice versa.
+
+Multiline strings can be places in triple quotes. We can use single quotes and double quotes in triple quotes strings 
+without escape sequences. Triple quotes are often used to create multi-line comments.
+
+We can define the step with which elements will be extracted to subarray from original array. \
+arr[start:end:step] - extract elements from start to end indexes with step
+
+Concatenating strings is performed using + operator and string repetition can be performed using * operator
+
+### Escape Sequences
+Escape sequences are used to place quotes in single-quoted string or for double-quoted ones, or for using special character.
+Escape sequences starts from " \ " symbol. \
+There are different special characters:
+* \n - new line
+* \t - tabulation
+
+Sometimes escape sequences are not convenient, to suppress escape sequences we can use `r` in front string.
