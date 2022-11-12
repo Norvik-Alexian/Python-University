@@ -108,6 +108,10 @@ arr[start:end:step] - extract elements from start to end indexes with step
 
 Concatenating strings is performed using + operator and string repetition can be performed using * operator
 
+By default, strings in Python are immutable: Each modification of string creates a new string(not changes the old one)
+
+Some types in Python are immutable(Strings, Numbers, Tuples)
+
 ### Escape Sequences
 Escape sequences are used to place quotes in single-quoted string or for double-quoted ones, or for using special character.
 Escape sequences starts from " \ " symbol. \
