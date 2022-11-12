@@ -36,3 +36,6 @@ To check multiple conditions we can use **and** and **or** keywords.
 ## Object Methods
 Method is a function specific for object of some specific type, to call method on some object we use following format: \
 `obj.methodName()`
+
+## Regular Expressions
+To work with regular expressions we should use external module like `re`, use Python Regular Expressions Cheat Sheet.
