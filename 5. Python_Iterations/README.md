@@ -32,3 +32,7 @@ Where the timeit.timeit() function returns the number of seconds it took to exec
 ## If/elif/else
 To check conditions in Python we can use if/elif/else, only if is mandatory elif and else are optional. \
 To check multiple conditions we can use **and** and **or** keywords.
+
+## Object Methods
+Method is a function specific for object of some specific type, to call method on some object we use following format: \
+`obj.methodName()`
